@@ -1,0 +1,33 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1 {
+     font-size: 50px;
+}
+
+p {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+
+blockquote {
+  border-left: 8px solid rgb(175, 171, 171);
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 50 24px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 24px;
+  width: 100%;
+}
+
+
+// class ="bg-white p-3 m-3" style="border-left: .25rem solid #a8aba7;">
+//   <blockquote class="blockquote pb-2">
+//     <p class=banner><%= @answer %></p>
+//   </blockquote>
+//     <figcaption class="blockquote-footer mb-0 font-italic">
